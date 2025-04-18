@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>TDE 407 &amp; 452 Internship Site</title>
+    <style>
+        h1.title-highlight {
+            font-size: 2rem;
+            color: #cc0000;
+            font-weight: 900;
+        }
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f3f4f6;
+            color: #111;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #fff;
+            border-bottom: 3px solid #cc0000;
+            padding: 1.25rem 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            margin-left: 1.5rem;
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        nav a:hover {
+            color: #cc0000;
+        }
+        .hero {
+            background: url('hero-resized.jpg') center/cover no-repeat;
+            height: 200px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .hero h2 {
+            background-color: rgba(255,255,255,0.85);
+            padding: 1rem 2.5rem;
+            font-size: 3.5rem;
+            color: #000;
+            font-weight: 900;
+            border-radius: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.2rem;
+        }
+        .container {
+            max-width: 1100px;
+            margin: auto;
+            padding: 3rem 1.5rem;
+        }
+        .card {
+            background: #fff;
+            border-radius: 10px;
+            padding: 2.5rem 2rem;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+            margin-bottom: 2.5rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+        }
+        h3 {
+            color: #cc0000;
+            font-size: 1.6rem;
+            margin-bottom: 0.75rem;
+        }
+        p {
+            font-size: 1rem;
+            color: #444;
+        }
+        .learn-more {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.6rem 1.2rem;
+            background-color: #cc0000;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 600;
+            transition: background-color 0.3s ease;
+        }
+        .learn-more:hover {
+            background-color: #a30000;
+        }
+        footer {
+            background: #fff;
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+            color: #777;
+            border-top: 3px solid #cc0000;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <a href="https://www.ncsu.edu" target="_blank">
+        <img src="resources/ncstate-logo.png" alt="NC State University Logo" style="height: 40px; margin-right: 1rem;"/>
+    </a>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="requirements.html">Requirements</a>
+        <a href="memorandum.html">Memorandum</a>
+        <a href="past-companies.html">Past Companies</a>
+    </nav>
+</header>
+
+<div class="hero">
+    <h2>TDE 452 and TDE 407</h2>
+</div>
+
+<main class="container">
+
+    <div style="background: white; padding: 1.5rem; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); margin: 1rem 0 2.5rem 0;">
+        <p style="margin-top: 2rem; line-height: 1.6;">
+            I hope your semester is going well and wanted to let you know that you are receiving this with internship information because you are a TDE-GC student. All TDE-GC students are receiving this with internship information and should work with their advisor to know when they will be interning. Internships happen your final Spring semester and ONLY in your final Spring semester. I am providing this to everyone so you know what to expect when you are ready to take TDE 407. You may work a full time or part time position even if it is not labeled as an internship so long as you complete the 300 hours during the semester.
+        </p>
+        <p style="margin-top: 1.5rem; font-style: italic; text-align: right;">– Dr. Franzen</p>
+    </div>
+
+    <div class="card">
+        <h3>Internship Requirements</h3>
+        <p>This course includes a 300-hour internship requirement taken in your final spring semester, co-requisite with TDE 452. Internships must align with your field and follow specific enrollment steps.</p>
+        <a class="learn-more" href="requirements.html">Learn More</a>
+    </div>
+
+    <div style="margin: 2.5rem 0;">
+        <img src="resources/image-cad.jpg" alt="Student design process" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);"/>
+    </div>
+
+    <div class="card">
+        <h3>Memorandum of Agreement</h3>
+        <p>Access and understand the expectations, responsibilities, and formal agreement structure you and your internship provider must sign.</p>
+        <a class="learn-more" href="memorandum.html">Learn More</a>
+    </div>
+
+    <div style="margin: 2.5rem 0;">
+        <img src="resources/image-team.jpg" alt="Team collaboration" style="width: 100%; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);"/>
+    </div>
+
+    <div class="card">
+        <h3>Past Internship Companies</h3>
+        <p>Explore a history of internships completed by TDE students, including workplace names and types of work for each year.</p>
+        <a class="learn-more" href="past-companies.html">Learn More</a>
+    </div>
+
+</main>
+
+<footer>
+    © 2025 NC State University — TDE 407 &amp; TDE 452 Internship Info Site
+</footer>
+</body>
+</html>
